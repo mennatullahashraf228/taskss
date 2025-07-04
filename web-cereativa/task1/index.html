@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Our Team</h2>
+        <div class="header-links">
+            <a href="#">Home</a>
+            <a href="#">Our shop</a>
+            <a href="#">Product Details</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+
+    <!--id-->
+    <div class="id">
+        <h1>Our Professional Team</h1>
+        <p>We are a team of skilled professionals in development and design, working together to provide the best
+            technical solutions for our clients</p>
+    </div>
+
+    <!--cards-->
+    <div class="section1">
+        <h1>Team Members</h1>
+        <section>
+            <div class="container">
+                <img src="images1/image-fen.jpg" alt="No Internet">
+                <div class="con">
+                    <h3>John Smith</h3>
+                    <h4>Lead Web Developer</h4>
+                    <p>Specialized in web application development using modern technologies like React and Node.js. Over
+                        5 years of experience in the field.</p>
+                    <div class="links">
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JavaScript</a>
+                        <a href="#">React</a>
+                    </div>
+                    <div class="buttons">
+                        <button>View Profile</button>
+                        <button>Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="images1/cat.jpg" alt="No Internet">
+                <div class="con">
+                    <h3>Sarah Johnson</h3>
+                    <h4>UI/UX Designer</h4>
+                    <p>Specialized in user experience and interface design. Works on improving user experience and
+                        making applications more user-friendly.</p>
+                    <div class="links">
+                        <a href="#">Figma</a>
+                        <a href="#">UI Design</a>
+                        <a href="#">UX Research</a>
+                        <a href="#">Prototyping</a>
+                    </div>
+                    <div class="buttons">
+                        <button>View Profile</button>
+                        <button>Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="newcardd">
+                <img id="newImg" src="images1/guitar.jpg" alt="No Internet">
+                <div class="con">
+                    <h3 id="newName">Michael Brown</h3>
+                    <h4 id="newJob">Mobile App Developer</h4>
+                    <p id="newDefi">pecialized in web application development using modern technologies like React and Node.js. Over
+                        5 years of experience in the field.</p>
+                    <div class="links">
+                        <a href="#">React Native</a>
+                        <a href="#">Flutter</a>
+                        <a href="#">Firebase</a>
+                        <a href="#">Mobile Ul</a>
+                    </div>
+                    <div class="buttons">
+                        <button>View Profile</button>
+                        <button>Contact</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--stats-->
+    <div class="backg">
+        <h1>Our Team Stats</h1>
+        <div class="num">
+            <div>
+                <h2>15+</h2>
+                <p>Combined Years of Experience</p>
+            </div>
+            <div>
+                <h2>50+</h2>
+                <p>Completed Projects</p>
+            </div>
+            <div>
+                <h2>100%</h2>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+        <div class="num1">
+            <h2>10+</h2>
+            <p>Mastered Technologies</p>
+        </div>
+    </div>
+    <!--buttom-->
+    <div class="buttom">
+        <p>© 2023 Our Team. All rights reserved.</p>
+        <p>Email: info@team.com | Phone: 0123456789</p>
+    </div>
+
+    <div class="addnc">
+        <input id="userImg" type="file" accept="image/*">
+        <button id="addc" onclick="newCard()">Add your new card</button>
+    </div>
+    
+    <script>
+        function newCard(){
+            var name=prompt("type your name:");
+            var nImg=document.getElementById(userImg);
+            var imgUrl = URL.createObjectURL(nImg.files[0]);
+            var x = document.getElementById("newcardd");
+            x.innerHTML=
+            `
+            <div class="container">
+                <img src=${imgUrl} alt="No Internet">
+                <div class="con">
+                    <h3>${name}</h3>
+                    <h4>Lead Web Developer</h4>
+                    <p>Specialized in web application development using modern technologies like React and Node.js. Over
+                        5 years of experience in the field.</p>
+                    <div class="links">
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JavaScript</a>
+                        <a href="#">React</a>
+                    </div>
+                    <div class="buttons">
+                        <button>View Profile</button>
+                        <button>Contact</button>
+                    </div>
+                </div>
+            </div>
+            `
+            ;
+
+        }
+
+    </script>
+</body>
+
+</html>

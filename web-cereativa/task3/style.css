@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 5px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+button{
+    padding: 10px;
+    border-radius: 7px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    border: none;
+}
+button:hover{
+    transform: scale(0.9);
+    transition: 0.2s;
+    border-radius: 15px;
+
+}
+.userpro button{
+    background-color: rgb(48, 83, 241);
+}
+.Shoppingc button{
+    background-color: #1da01b;
+}
+#veragee button{
+    background-color: #33aeb6;
+}
+.darkmode button{
+    background-color: #3e433e;
+}
+.Shoppinglist button{
+    background-color: #256ba1;
+}
+.userpro {
+    margin-top: 30px;
+    padding: 10px;
+    border: dashed 2px rgb(188, 184, 184) ;
+    border-radius: 10px;
+}
+.Shoppingc {
+    margin-top: 30px;
+    padding: 10px;
+    border: dashed 2px rgb(188, 184, 184) ;
+    border-radius: 10px;
+}
+#veragee {
+    margin-top: 30px;
+    padding: 10px;
+    border: dashed 2px rgb(188, 184, 184) ;
+    border-radius: 10px;
+}
+.darkmode{
+    margin-top: 30px;
+    padding: 10px;
+    border: dashed 2px rgb(188, 184, 184) ;
+    border-radius: 10px;
+}
+.Shoppinglist{
+    margin-top: 30px;
+    padding: 10px;
+    border: dashed 2px rgb(188, 184, 184) ;
+    border-radius: 10px;
+}
+.inputt{
+    padding: 7px;
+    border-radius: 7px;
+}
+.a{
+    margin-top: 30px;
+    padding: 10px;
+    border: dashed 1px ;
+    color: rgb(73, 72, 72);
+}

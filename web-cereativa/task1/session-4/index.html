@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOC Manipulation Demo</title>
+    <link rel="stylesheet" href="cc.css">
+</head>
+<body>
+    <div class="div1">
+        <h2>selector methods demonstration</h2>
+        <div class="texts">
+        <div id="getByID">Element selectod by ID</div>
+        <div class="getByClass">Element with class (1)</div>
+        <div class="getByClass">Element with class (2)</div>
+        <div class="paraInDiv">
+            <p>Paragraph inside div</p>
+        </div>
+        </div>
+        <div class="btn">
+            <button onclick="getByID()">getElementById</button>
+            <button onclick="getByClass()">getElementByClassName</button>
+            <button onclick="getByTag()">getElementByTagName</button>
+            <button onclick="getOne()">querySelector</button>
+            <button onclick="getAll()">querySelectorAll</button>
+        </div>
+    </div>
+
+    <div class="div1">
+        <h2>selector methods demonstration</h2>
+        <div class="texts" id="rr">
+        <div>
+            <a id="linkk" href="https://www.youtube.com/?feature=ytca" target="_blank">Youtube link</a>
+        </div>
+        </div>
+        <div class="btn1">
+            <button onclick="changeLink()">Change Link</button>
+            <button onclick="getLink()">Get Link</button>
+            <button onclick="removeLink()">Remove Link</button>
+        </div>
+    </div>
+
+    
+</body>
+<script src="cc.js"></script>
+</html>

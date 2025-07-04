@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="en">
+            <div class="icon1">
+                <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div>
+                <h2>Enterprise Dashboard</h2>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="icon2">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="id">
+                <h4>John Doe</h4>
+                <p>Administrator</p>
+            </div>
+            <div>
+                <button class="profile">JD</button>
+            </div>
+        </div>
+    </header>
+
+    <!--search-->
+    <div class="dashboard">
+        <div>
+            <h2>Dashboard Overview</h2>
+            <p>Welcome back! Here’s what’s happening with your business today.</p>
+        </div>
+        <div class="searchin">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" class="search-input" placeholder="Search.." />
+        </div>
+    </div>
+
+    <!--cards-->
+
+    <div class="cards">
+        <div class="onecard">
+            <div class="icon-dollar">
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div class="words">
+                <h3>Total Revenue</h3>
+                <h1>$48,752</h1>
+                <div class="arrow">
+                    <div>
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                    <div>
+                        <p>12.5% from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="onecard">
+            <div class="icon-bag">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="words">
+                <h3>New Orders</h3>
+                <h1>2,156</h1>
+                <div class="arrow">
+                    <div>
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                    <div>
+                        <p>8.3% from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="onecard">
+            <div class="icon-user-plus">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <div class="words">
+                <h3>New Customers</h3>
+                <h1>524</h1>
+                <div class="revarrow">
+                    <div>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                    <div>
+                        <p>2.1% from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="onecard">
+            <div class="icon-charbar">
+                <i class="fa-solid fa-chart-bar"></i>
+            </div>
+            <div class="words">
+                <h3>Avg. Order Value</h3>
+                <h1>$226</h1>
+                <div class="arrow">
+                    <div>
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                    <div>
+                        <p>5.7% from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--sections-->
+
+    <div class="sec1-2">
+        <div class="section1">
+            <div class="upper-section1">
+                <div>
+                    <h3>Sales Performance</h3>
+                </div>
+                <div>
+                    <select>
+                        <option>Last 90 Days</option>
+                        <option>Last 30 Days</option>
+                    </select>
+                </div>
+            </div>
+            <div class="chart-vi">
+                <h2>Chart Visualization</h2>
+            </div>
+        </div>
+
+
+        <div class="section2">
+            <div>
+                <div class="upper-section2">
+                    <div>
+                        <h3>Recent Orders</h3>
+                    </div>
+                    <div>
+                        <select>
+                            <option>This Week</option>
+                            <option>This Month</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#ORD-7841</td>
+                            <td>Sarah Johnson</td>
+                            <td>$245.99</td>
+                            <td><span class="completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7840</td>
+                            <td>Michael Chen</td>
+                            <td>$189.50</td>
+                            <td><span class="pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7839</td>
+                            <td>David Wilson</td>
+                            <td>$320.00</td>
+                            <td><span class="completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7838</td>
+                            <td>Emily Davis</td>
+                            <td>$156.75</td>
+                            <td><span class="canceled">Canceled</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7837</td>
+                            <td>Robert Brown</td>
+                            <td>$275.30</td>
+                            <td><span class="completed">Completed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="view-all">
+                <div>
+                    <a href="#">View All Orders</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="sec3-4">
+        
+
+
+        <div class="section3">
+            <div>
+                <div class="upper-section2">
+                    <div>
+                        <h3>Recent Orders</h3>
+                    </div>
+                    <div>
+                        <select>
+                            <option>This Week</option>
+                            <option>This Month</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#ORD-7841</td>
+                            <td>Sarah Johnson</td>
+                            <td>$245.99</td>
+                            <td><span class="completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7840</td>
+                            <td>Michael Chen</td>
+                            <td>$189.50</td>
+                            <td><span class="pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7839</td>
+                            <td>David Wilson</td>
+                            <td>$320.00</td>
+                            <td><span class="completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7838</td>
+                            <td>Emily Davis</td>
+                            <td>$156.75</td>
+                            <td><span class="canceled">Canceled</span></td>
+                        </tr>
+                        <tr>
+                            <td>#ORD-7837</td>
+                            <td>Robert Brown</td>
+                            <td>$275.30</td>
+                            <td><span class="completed">Completed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="view-all">
+                <div>
+                    <a href="#">View All Orders</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="section4">
+            <div class="upper-section1">
+                <div>
+                    <h3>Sales Performance</h3>
+                </div>
+                <div>
+                    <select>
+                        <option>Last 90 Days</option>
+                        <option>Last 30 Days</option>
+                    </select>
+                </div>
+            </div>
+            <div class="chart-vi">
+                <h2>Chart Visualization</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

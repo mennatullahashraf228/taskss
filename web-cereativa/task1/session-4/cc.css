@@ -1,0 +1,76 @@
+h2{
+    color: #0866ff;
+}
+.btn button{
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #0056df;
+    border: none;
+    padding: 13px;
+    margin:5px ;
+}
+.btn button:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
+
+.div1{
+    padding: 20px 30px;
+    border: 2px dashed rgb(118, 118, 118);
+    margin:20px 200px ;
+    background-color: #fff;
+}
+.texts{
+    padding-bottom:10px ;
+}
+.texts div{
+    padding :10px;
+    border-radius: 10px;
+    background-color: #dde5f1;
+    margin: 10px;
+}
+.texts a{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #dde5f1;
+    margin: 10px;
+}
+
+.texts div:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.texts a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.btn1 button{
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 13px;
+    margin:5px ;
+}
+.btn1 button:nth-child(1){
+    background-color: #0056df;
+}
+.btn1 button:nth-child(2){
+    background-color: #15b618;
+}
+.btn1 button:nth-child(3){
+    background-color: #cf1313;
+}
+
+.btn1 button:hover{
+    transform: scale(0.9);
+    transition: all 0.5s;
+}
+.texts a{
+    text-decoration: none;
+
+}
+.paraInDiv p{
+    margin: 0;
+}
